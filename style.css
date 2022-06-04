@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(5, 5, 117);
+}
+.clock{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%);
+   color: #fff;
+   font-size: 30px;
+}
+h1{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    text-decoration: underline;
+}
